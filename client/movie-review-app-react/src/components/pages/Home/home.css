@@ -1,0 +1,116 @@
+.outer-latest-released {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.outer-latest-released h1 {
+    font-size: 50px;
+    color: var(--textColor);
+}
+
+.outer-latest-released h1 span {
+    color: var(--mainColor);
+    padding: 0;
+}
+
+.outer-latest-released p {
+    font-size: 25px;
+    color: var(--textColor);
+}
+
+.outer-latest-released .latest-released {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    width: 100%;
+    grid-gap: 10px;
+}
+
+.outer-latest-released .latest-released .single-latest-released {
+    width: 100%;
+    padding: 1rem;
+}
+
+.outer-latest-released .latest-released .single-latest-released img {
+    object-fit: cover;
+    border-radius: 5px;
+    height: 400px;
+    width: 100%;
+}
+
+.outer-latest-released .latest-released .single-latest-released img:hover {
+    opacity: 0.95;
+}
+
+.outer-latest-released .latest-released .single-latest-released .movie-info {
+    padding: 20px 0;
+}
+
+.outer-latest-released .latest-released .single-latest-released .movie-info h2:hover {
+    text-decoration: underline;
+}
+
+.outer-latest-released .latest-released .single-latest-released .movie-info span {
+    text-decoration: underline;
+}
+
+
+/* Actor */
+
+.outer-actors-section {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.outer-actors-section h1 {
+    font-size: 50px;
+    color: var(--textColor);
+}
+
+.outer-actors-section h1 span {
+    color: var(--mainColor);
+    padding: 0;
+}
+
+.outer-actors-section p {
+    font-size: 25px;
+    color: var(--textColor);
+}
+
+.outer-actors-section .actors-section {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    width: 100%;
+    grid-gap: 10px;
+}
+
+.outer-actors-section .actors-section .single-actor-section {
+    text-align: center;
+    padding: 1em;
+}
+
+.outer-actors-section .actors-section .single-actor-section img {
+    object-fit: cover;
+    border-radius: 5px;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 0.4px solid rgb(228, 228, 228);
+}
+
+.outer-actors-section .actors-section .single-actor-section img:hover {
+    opacity: 0.95;
+}
+
+.outer-actors-section .actors-section .single-actor-section h2 {
+    margin-top: 5px;
+}
+
+.outer-actors-section .actors-section .single-actor-section h2 a:hover {
+    text-decoration: underline;
+}
+
+.outer-actors-section .actors-section .single-actor-section span {
+    text-decoration: underline;
+}

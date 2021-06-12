@@ -1,0 +1,65 @@
+/* User profile */
+
+.user-profile {
+    width: 100%;
+    margin: auto;
+}
+
+.user-profile .inner-user-profile {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.user-profile .inner-user-profile img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 219, 219)
+}
+
+.user-profile .inner-user-profile button {
+    border: none;
+    outline: none;
+    padding: 12px 50px;
+    margin-top: 30px;
+    background-color: var(--mainColor);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+/* Edit profile */
+
+.edit-profile {
+    width: 100%;
+}
+
+.edit-profile form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-profile form label {
+    margin: 10px 0;
+}
+
+.edit-profile form input {
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+.edit-profile form button {
+    padding: 7px 15px;
+    outline: none;
+    border: none;
+    background-color: var(--mainColor);
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}

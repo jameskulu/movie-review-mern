@@ -1,0 +1,23 @@
+/* Genre */
+
+
+.genre-section {
+    width: 100%;
+}
+
+.genre-section .inner-genre-section {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    width: 100%;
+    grid-gap: 40px;
+}
+
+
+.genre-section .inner-genre-section .single-genre {
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+}

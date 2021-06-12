@@ -1,0 +1,83 @@
+.auth {
+    width: 100%;
+}
+
+.auth .inner-auth {
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(250, 250, 250);
+}
+
+.auth .inner-auth .auth-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth .inner-auth .auth-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+.auth .inner-auth .auth-body>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.auth .inner-auth .auth-body label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.auth .inner-auth .auth-body input {
+    padding: 10px 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(241, 241, 241);
+}
+
+.auth .inner-auth .auth-body button {
+    padding: 8px 15px;
+    outline: none;
+    margin-top: 30px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--mainColor);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.auth .inner-auth .auth-body button:hover {
+    opacity: 0.8;
+}
+
+.auth .inner-auth .auth-footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth .inner-auth .auth-footer a {
+    text-decoration: underline;
+    color: var(--mainColor);
+}
+
+@media (max-width: 730px) {
+    .auth .inner-auth {
+        width: 95%;
+        padding: auto 0;
+    }
+
+    .auth .inner-auth .auth-body {
+        padding: 0;
+    }
+}

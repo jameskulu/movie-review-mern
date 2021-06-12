@@ -1,0 +1,192 @@
+/* Movie Detail */
+
+.movie-detail {
+    width: 100%;
+}
+
+.movie-detail .outer-movie-detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-detail .outer-movie-detail .left-movie-detail {
+    flex: 1;
+}
+
+.movie-detail .outer-movie-detail .left-movie-detail img {
+    height: 500px;
+    border-radius: 10px;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail {
+    flex: 1.5;
+}
+
+
+.movie-detail .outer-movie-detail .right-movie-detail h1 {
+    font-size: 60px;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail .movie-detail-desc i {
+    color: var(--mainColor)
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail .movie-detail-desc i:nth-of-type(6) {
+    margin-left: 10px;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail .movie-detail-desc span:nth-of-type(1) {
+    text-decoration: underline;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail p {
+    font-size: 17px;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail p:nth-of-type(1) {
+    margin-top: 30px;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail p:nth-of-type(2) {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail p:nth-of-type(2) span {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail p:nth-of-type(3) {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail p:nth-of-type(3) span {
+    margin-left: 30px;
+    font-weight: normal;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--mainColor);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.movie-detail .outer-movie-detail .right-movie-detail button:hover {
+    opacity: 0.9;
+}
+
+.movie-detail .rate-section {
+    padding: 50px;
+}
+
+.movie-detail .rate-section .inner-rate-section {
+    padding: 50px;
+    width: 77%;
+    margin: auto;
+    text-align: center;
+    border: 0.5px solid rgb(155, 155, 155);
+}
+
+.movie-detail .comment-section {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-detail .comment-section .add-comment-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.movie-detail .comment-section .add-comment-section input {
+    padding: 10px 12px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(228, 228, 228);
+}
+
+.movie-detail .comment-section .add-comment-section button {
+    padding: 10px 12px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: var(--mainColor);
+    color: #fff;
+    cursor: pointer;
+}
+
+.movie-detail .comment-section .comment-added-section {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.movie-detail .comment-section .comment-added-section .single-comment-section {
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.movie-detail .comment-section .comment-added-section .single-comment-section img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+
+}
+
+.movie-detail .comment-section .comment-added-section .single-comment-section .name-comment {
+    margin-left: 20px;
+}
+
+.movie-detail .comment-section .comment-added-section .single-comment-section .fa-trash-alt {
+    position: absolute;
+    right: 2rem;
+    top: 4rem;
+    cursor: pointer;
+    color: rgb(196, 22, 22);
+}
+
+
+@media (max-width: 1100px) {
+    .movie-detail .outer-movie-detail {
+        flex-direction: column;
+    }
+
+    .movie-detail .outer-movie-detail .right-movie-detail {
+
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .movie-detail .rate-section .inner-rate-section {
+        width: 100%;
+    }
+
+    .movie-detail .comment-section {
+        width: 100%;
+    }
+}
